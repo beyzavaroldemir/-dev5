@@ -1,0 +1,18 @@
+1-)SPA NEDİR
+Single Page Application sayfa yenilenmeden veri akışının sağlandığı, daha hızlı bir performans gösteren web uygulamalarıdır. Kullanıcı ile etkileşime giren web uygulaması her seferinde tüm sayfayı yeniden yüklemek yerine dinamik bir şekilde sayfayı yenilemeden, içeriğini günceller. Özetle web sayfamızda yalnızca bir tane index sayfası oluyor ve istemci tarafında sayfalar router ile değişiyor ve kullanıcıya gösteriliyor. Bunu yaparken de web componentlerden yardım alınıyor. Router, ilgili path için sizin belirlediğiniz componentleri kullanıcıya gösteriyor. Bu da yeni bir sayfaya geçmiş etkisi yaratıyor. Yani tüm bu componentlerin değişimi tarayıcınızda oluyor.
+Avantajları
+Hız
+Kullanıcı deneyimi
+Önbellek
+Debugging
+2-) ANGULAR NEDİR
+Angular, Google ve dünyadaki geliştiriciler tarafından sağlanan açık kaynaklı JavaScript tabanlı bir MVC kitaplığıdır. Özetle; dinamik web uygulamaları için yapısal bir çerçevedir. Bu, Html'i bir şablon dili olarak kullanmanıza ve HTML etiketlerini uygulamanızın bileşenlerini açıkça temsil edecek şekilde genişletmenize olanak tanır. .
+Temel amacı, tek bir site üzerinde dinamik olarak gelişme imkânı sağlamaktır. Benzer yapıya sahip kütüphanelerden en büyük farkı çift yönlü olmalarıdır. Yani, verileri değiştirmek görünümü değiştirir ve görünümü değiştirmek verileri değiştirir. Angular SPA kullanır.
+3-)TypeScript Nedir
+Typescript, JavaScript ile daha hızlı ve anlaşılır kod geliştirmemizi sağlayan bir ortamdır. Typescript, JavaScript ile daha hızlı ve anlaşılır kod geliştirmemizi sağlayan bir ortamdır. Herhangi bir tarayıcıda, herhangi bir JavaScript motorunda çalışan temiz, basit JavaScript kodudur. TypeScript  nesne yönelimli ve derlenebilir açık kaynaklı bir programlama dilidir.  TypeScript hem bir dil olarak tanımlanabilirken aynı zamanda bir araçlar kümesi şeklinde de belirtilebilir. Dil, client ve server üzerinde çalışan JavaScript uygulamaları yazmak için kullanılabilir. TypeScript, JavaScript dilinin tüm özelliklerinde içinde barından ve üstüne yeni özellikler eklenmiş bir üst kümesi olarak adlandırılabilir. Büyük çaplı projelerin karmaşık kodlama aşamasında geliştiriciye yardımcı olur ve projelerdeki verimliliği arttırır.
+4-)TİPLER
+Değer tipindeki veri tipleri ile bir değişken tanımlandığında değişkenin değeri Stack adı verilen bellek bölgesinde tutulur. Referans tipindeki veri tipinde bir değişken tanımlandığında ise değişkenin değeri Heap bölgesinde ve Heap bölgesindeki değeri gösteren adres değeri ise Stack bölgesinde tutulur. Referans tipindeki bir değişkene bellekte yer ayırırken de “new” anahtar kelimesi kullanılır.
+TypeScriptte boolean,string,number,undefined değer tiplerken array,function ve object referans tiplerdir.
+5-) STACK ve HEAP
+Stack verileri tutmak için oluşturulan soyut bir data tipidir. Stack (yığın) sınıfı nesnelerin LIFO (last-input-first-output) yapısıyla depolanmasını sağlayan bir veri tipidir. Bilgisayar uygulamalarında çok sık kullanılır. Üst üste konulmuş kutular gibidir. Yani gelen kutu en üste konur. Alttaki ya da aradaki bir kutuyu almak için, en üsttekinden başlayarak, istenen kutuya kadar üsttekileri sırayla almak gerekir. Değer tipler stackde referans tiplerin adresleri de stack de tutulur. 
+Heap, belleğin doğrudan kontrol edilebildiği bir bellek bölümüdür. Kontrol yetkisi ise programcılara aittir.  Heap'de verilerin büyüklüğü dinamik olarak belirlenir. Stack’e göre daha yavaştır. Referans tipler bu alanda tutulur. Heap de veriler karmaşık halde tutulur 
